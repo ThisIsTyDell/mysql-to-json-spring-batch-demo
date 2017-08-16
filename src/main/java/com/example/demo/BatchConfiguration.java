@@ -34,7 +34,6 @@ public class BatchConfiguration {
 
     @Autowired
     public DataSource dataSource;
-
 	
     private static final String QUERY_FIND_CUSTOMERS = "SELECT * FROM customers";
     
@@ -67,57 +66,14 @@ public class BatchConfiguration {
     
     	return jsonFileWriter;
     }
-
-	@Bean
-	ItemWriter<Customer> databaseCSVItemWriter() {
-		FlatFileItemWriter<Customer> csvFileWriter = new FlatFileItemWriter<>();
-		
-		String exportFileHeader = "FIRST NAME,LAST NAME,PHONE NUMBER,CITY,ZIP CODE";
-		StringHeaderWriter headerWriter = new StringHeaderWriter(exportFileHeader);
-		csvFileWriter.setHeaderCallback(headerWriter);
-		
-		String exportFilePath = "customers.csv";
-		csvFileWriter.setResource(new FileSystemResource(exportFilePath));
-		
-		LineAggregator<Customer> lineAggregator = createCustomerLineAggregator();
-		csvFileWriter.setLineAggregator(lineAggregator);
-		
-		return csvFileWriter;
-	}
-	
-	private LineAggregator<Customer> createCustomerLineAggregator() {
-		DelimitedLineAggregator<Customer> lineAggregator = new DelimitedLineAggregator<>();
-		lineAggregator.setDelimiter(",");
-		
-		FieldExtractor<Customer> fieldExtractor = createCustomerFieldExtractor();
-		lineAggregator.setFieldExtractor(fieldExtractor);
-		
-		return lineAggregator;
-	}
-
-	private FieldExtractor<Customer> createCustomerFieldExtractor() {
-		BeanWrapperFieldExtractor<Customer> extractor = new BeanWrapperFieldExtractor<>();
-		extractor.setNames(new String[] {"firstName", "lastName", "phoneNumber", "city", "zipCode"});
-		return extractor;
-	}
 	
 	@Bean
     public Job importUserJob(JobCompletionNotificationListener listener) {
         return jobBuilderFactory.get("importUserJob")
                 .incrementer(new RunIdIncrementer())
                 .listener(listener)
-                .flow(exportToCSV())
-                .next(exportToJSON())
+                .flow(exportToJSON())
                 .end()
-                .build();
-    }
-
-    @Bean
-    public Step exportToCSV() {
-        return stepBuilderFactory.get("exportToCSV")
-                .<Customer, Customer> chunk(10)
-                .reader(databaseItemReader(dataSource))
-                .writer(databaseCSVItemWriter())
                 .build();
     }
     
