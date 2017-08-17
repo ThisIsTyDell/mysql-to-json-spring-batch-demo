@@ -63,6 +63,11 @@ public class BatchConfiguration {
     	return jsonFileWriter;
     }
 	
+    /**
+     * 
+     * @param listener
+     * @return
+     */
 	@Bean
     public Job importUserJob(JobCompletionNotificationListener listener) {
         return jobBuilderFactory.get("importUserJob")
@@ -73,6 +78,10 @@ public class BatchConfiguration {
                 .build();
     }
     
+	/**
+	 * 
+	 * @return
+	 */
     @Bean
     public Step exportToJSON() {
     	return stepBuilderFactory.get("exportToJSON")
