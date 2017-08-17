@@ -28,7 +28,7 @@ public class JobCompletionNotificationListener implements JobExecutionListener {
         	
             List<Throwable> exceptionList = jobExecution.getAllFailureExceptions();
             for(Throwable th : exceptionList){
-                System.err.println("exception :" +th.getLocalizedMessage());
+                log.error("exception :" +th.getLocalizedMessage());
             }
         }
     }
