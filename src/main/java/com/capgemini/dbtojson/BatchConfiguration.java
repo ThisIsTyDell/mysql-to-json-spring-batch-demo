@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.capgemini.dbtojson;
 
 import javax.sql.DataSource;
 
