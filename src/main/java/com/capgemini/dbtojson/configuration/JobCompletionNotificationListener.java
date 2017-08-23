@@ -25,7 +25,7 @@ public class JobCompletionNotificationListener implements JobExecutionListener {
         if(jobExecution.getStatus() == BatchStatus.COMPLETED){
         	log.info("!!! JOB FINISHED! Time to verify the results");
         }else if(jobExecution.getStatus() == BatchStatus.FAILED){
-        	log.info("!!! DB to CSV job failed with following exceptions");
+        	log.error("!!! DB to CSV job failed with following exceptions");
         	
             List<Throwable> exceptionList = jobExecution.getAllFailureExceptions();
             for(Throwable th : exceptionList){
