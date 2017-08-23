@@ -33,22 +33,6 @@ public class BatchConfiguration {
 
     @Autowired
     public StepBuilderFactory stepBuilderFactory;
-
-    // @Autowired
-    // public DataSource dataSource;
-	
-    // private static final String QUERY_FIND_CUSTOMERS = "SELECT * FROM customers";
-    
-    // @Bean
-    // ItemReader<Customer> databaseItemReader(DataSource dataSource) {
-        // JdbcCursorItemReader<Customer> databaseReader = new JdbcCursorItemReader<>();
- 
-        // databaseReader.setDataSource(dataSource);
-        // databaseReader.setSql(QUERY_FIND_CUSTOMERS);
-        // databaseReader.setRowMapper(new BeanPropertyRowMapper<>(Customer.class));
- 
-        // return databaseReader;
-    // }
     
     @Bean
     ItemReader<Customer> customerItemReader() {
