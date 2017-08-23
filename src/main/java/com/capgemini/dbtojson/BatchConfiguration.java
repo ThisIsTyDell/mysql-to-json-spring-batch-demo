@@ -1,6 +1,6 @@
 package com.capgemini.dbtojson;
 
-import javax.sql.DataSource;
+// import javax.sql.DataSource;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -10,13 +10,13 @@ import org.springframework.batch.core.configuration.annotation.StepBuilderFactor
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.ItemWriter;
-import org.springframework.batch.item.database.JdbcCursorItemReader;
+// import org.springframework.batch.item.database.JdbcCursorItemReader;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
+// import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
 @Configuration
 @EnableBatchProcessing
@@ -28,20 +28,26 @@ public class BatchConfiguration {
     @Autowired
     public StepBuilderFactory stepBuilderFactory;
 
-    @Autowired
-    public DataSource dataSource;
+    // @Autowired
+    // public DataSource dataSource;
 	
-    private static final String QUERY_FIND_CUSTOMERS = "SELECT * FROM customers";
+    // private static final String QUERY_FIND_CUSTOMERS = "SELECT * FROM customers";
+    
+    // @Bean
+    // ItemReader<Customer> databaseItemReader(DataSource dataSource) {
+        // JdbcCursorItemReader<Customer> databaseReader = new JdbcCursorItemReader<>();
+ 
+        // databaseReader.setDataSource(dataSource);
+        // databaseReader.setSql(QUERY_FIND_CUSTOMERS);
+        // databaseReader.setRowMapper(new BeanPropertyRowMapper<>(Customer.class));
+ 
+        // return databaseReader;
+    // }
     
     @Bean
-    ItemReader<Customer> databaseItemReader(DataSource dataSource) {
-        JdbcCursorItemReader<Customer> databaseReader = new JdbcCursorItemReader<>();
- 
-        databaseReader.setDataSource(dataSource);
-        databaseReader.setSql(QUERY_FIND_CUSTOMERS);
-        databaseReader.setRowMapper(new BeanPropertyRowMapper<>(Customer.class));
- 
-        return databaseReader;
+    ItemReader<Customer> customerItemReader() {
+		return new CustomerItemReader();
+    	
     }
     
     @Bean
@@ -86,7 +92,8 @@ public class BatchConfiguration {
     public Step exportToJSON() {
     	return stepBuilderFactory.get("exportToJSON")
     			.<Customer,Customer> chunk(10)
-    			.reader(databaseItemReader(dataSource))
+    			// .reader(databaseItemReader(dataSource))
+    			.reader(customerItemReader())
     			.writer(jsonWriter())
     			.build();
     }
