@@ -1,4 +1,4 @@
-package com.capgemini.dbtojson;
+package com.capgemini.dbtojson.reader;
 
 import java.util.Comparator;
 import java.util.List;
@@ -14,6 +14,8 @@ import org.springframework.batch.item.UnexpectedInputException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.capgemini.dbtojson.models.Customer;
 
 public class CustomerItemReader implements ItemReader<Customer> {
 	

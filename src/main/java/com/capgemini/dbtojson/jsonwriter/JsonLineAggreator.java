@@ -1,4 +1,4 @@
-package com.capgemini.dbtojson;
+package com.capgemini.dbtojson.jsonwriter;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

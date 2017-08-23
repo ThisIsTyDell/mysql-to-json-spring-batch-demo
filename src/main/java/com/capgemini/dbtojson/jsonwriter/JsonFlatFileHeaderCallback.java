@@ -1,4 +1,4 @@
-package com.capgemini.dbtojson;
+package com.capgemini.dbtojson.jsonwriter;
 
 import java.io.IOException;
 import java.io.Writer;

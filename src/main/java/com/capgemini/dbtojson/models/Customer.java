@@ -1,4 +1,4 @@
-package com.capgemini.dbtojson;
+package com.capgemini.dbtojson.models;
 
 public class Customer {
 	private String firstName;

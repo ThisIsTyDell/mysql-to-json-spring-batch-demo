@@ -1,4 +1,4 @@
-package com.capgemini.dbtojson;
+package com.capgemini.dbtojson.configuration;
 
 // import javax.sql.DataSource;
 
@@ -17,6 +17,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
 // import org.springframework.jdbc.core.BeanPropertyRowMapper;
+
+import com.capgemini.dbtojson.jsonwriter.JsonFlatFileFooterCallback;
+import com.capgemini.dbtojson.jsonwriter.JsonFlatFileHeaderCallback;
+import com.capgemini.dbtojson.jsonwriter.JsonLineAggreator;
+import com.capgemini.dbtojson.models.Customer;
+import com.capgemini.dbtojson.reader.CustomerItemReader;
 
 @Configuration
 @EnableBatchProcessing
