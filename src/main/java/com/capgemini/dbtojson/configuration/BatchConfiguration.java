@@ -37,7 +37,6 @@ public class BatchConfiguration {
     @Bean
     ItemReader<Customer> customerItemReader() {
 		return new CustomerItemReader();
-    	
     }
     
     @Bean
