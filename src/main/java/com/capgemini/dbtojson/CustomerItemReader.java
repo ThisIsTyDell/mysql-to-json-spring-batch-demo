@@ -39,9 +39,6 @@ public class CustomerItemReader implements ItemReader<Customer> {
 	
 	@BeforeStep
 	public void getCustomerList(StepExecution stepExecution) {
-		//this.jobContext = jobExecution.getExecutionContext();
-		//this.customers = jobContext.get("customerList");
-		
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
     	this.customerList = jdbcTemplate.query("SELECT * FROM customers",
     			new BeanPropertyRowMapper<Customer>(Customer.class));	
