@@ -3654,3 +3654,205 @@
 [INFO ] 2017-08-23 11:12:26.408 [main] JsonLineAggreator - Converting Customer [firstName=Xavier, lastName=Sampson] to JSON Object
 [INFO ] 2017-08-23 11:12:26.408 [main] JsonLineAggreator - Converting Customer [firstName=Xaviera, lastName=Cruz] to JSON Object
 [INFO ] 2017-08-23 11:12:26.463 [main] JobCompletionNotificationListener - !!! JOB FINISHED! Time to verify the results
+[INFO ] 2017-08-23 12:05:08.917 [Test worker] JobCompletionNotificationListener - !!! JOB STARTED!
+[INFO ] 2017-08-23 12:05:09.077 [Test worker] JsonLineAggreator - Converting Customer [firstName=Aiko, lastName=Mason] to JSON Object
+[INFO ] 2017-08-23 12:05:09.077 [Test worker] JsonLineAggreator - Converting Customer [firstName=Akeem, lastName=Ray] to JSON Object
+[INFO ] 2017-08-23 12:05:09.077 [Test worker] JsonLineAggreator - Converting Customer [firstName=Alana, lastName=Ferrell] to JSON Object
+[INFO ] 2017-08-23 12:05:09.078 [Test worker] JsonLineAggreator - Converting Customer [firstName=Alexis, lastName=Hancock] to JSON Object
+[INFO ] 2017-08-23 12:05:09.078 [Test worker] JsonLineAggreator - Converting Customer [firstName=Aquila, lastName=England] to JSON Object
+[INFO ] 2017-08-23 12:05:09.078 [Test worker] JsonLineAggreator - Converting Customer [firstName=Armand, lastName=Perez] to JSON Object
+[INFO ] 2017-08-23 12:05:09.078 [Test worker] JsonLineAggreator - Converting Customer [firstName=Austin, lastName=Alvarez] to JSON Object
+[INFO ] 2017-08-23 12:05:09.078 [Test worker] JsonLineAggreator - Converting Customer [firstName=Bradley, lastName=King] to JSON Object
+[INFO ] 2017-08-23 12:05:09.078 [Test worker] JsonLineAggreator - Converting Customer [firstName=Brock, lastName=Terry] to JSON Object
+[INFO ] 2017-08-23 12:05:09.098 [Test worker] JsonLineAggreator - Converting Customer [firstName=Brynne, lastName=Salinas] to JSON Object
+[INFO ] 2017-08-23 12:05:09.099 [Test worker] JsonLineAggreator - Converting Customer [firstName=Brynne, lastName=May] to JSON Object
+[INFO ] 2017-08-23 12:05:09.099 [Test worker] JsonLineAggreator - Converting Customer [firstName=Caleb, lastName=Cohen] to JSON Object
+[INFO ] 2017-08-23 12:05:09.099 [Test worker] JsonLineAggreator - Converting Customer [firstName=Cedric, lastName=Estes] to JSON Object
+[INFO ] 2017-08-23 12:05:09.099 [Test worker] JsonLineAggreator - Converting Customer [firstName=Claire, lastName=Kramer] to JSON Object
+[INFO ] 2017-08-23 12:05:09.099 [Test worker] JsonLineAggreator - Converting Customer [firstName=Clarke, lastName=Frazier] to JSON Object
+[INFO ] 2017-08-23 12:05:09.100 [Test worker] JsonLineAggreator - Converting Customer [firstName=Constance, lastName=Cabrera] to JSON Object
+[INFO ] 2017-08-23 12:05:09.100 [Test worker] JsonLineAggreator - Converting Customer [firstName=Cullen, lastName=Chapman] to JSON Object
+[INFO ] 2017-08-23 12:05:09.100 [Test worker] JsonLineAggreator - Converting Customer [firstName=Dalton, lastName=Browning] to JSON Object
+[INFO ] 2017-08-23 12:05:09.100 [Test worker] JsonLineAggreator - Converting Customer [firstName=Deirdre, lastName=Cherry] to JSON Object
+[INFO ] 2017-08-23 12:05:09.110 [Test worker] JsonLineAggreator - Converting Customer [firstName=Devin, lastName=Kirk] to JSON Object
+[INFO ] 2017-08-23 12:05:09.110 [Test worker] JsonLineAggreator - Converting Customer [firstName=Elizabeth, lastName=Wolfe] to JSON Object
+[INFO ] 2017-08-23 12:05:09.111 [Test worker] JsonLineAggreator - Converting Customer [firstName=Ella, lastName=Hester] to JSON Object
+[INFO ] 2017-08-23 12:05:09.111 [Test worker] JsonLineAggreator - Converting Customer [firstName=Faith, lastName=Conner] to JSON Object
+[INFO ] 2017-08-23 12:05:09.111 [Test worker] JsonLineAggreator - Converting Customer [firstName=Ferdinand, lastName=Livingston] to JSON Object
+[INFO ] 2017-08-23 12:05:09.111 [Test worker] JsonLineAggreator - Converting Customer [firstName=Finn, lastName=Strong] to JSON Object
+[INFO ] 2017-08-23 12:05:09.111 [Test worker] JsonLineAggreator - Converting Customer [firstName=Fitzgerald, lastName=Merritt] to JSON Object
+[INFO ] 2017-08-23 12:05:09.111 [Test worker] JsonLineAggreator - Converting Customer [firstName=Frances, lastName=Sparks] to JSON Object
+[INFO ] 2017-08-23 12:05:09.111 [Test worker] JsonLineAggreator - Converting Customer [firstName=Garrison, lastName=Guy] to JSON Object
+[INFO ] 2017-08-23 12:05:09.112 [Test worker] JsonLineAggreator - Converting Customer [firstName=Garth, lastName=Stafford] to JSON Object
+[INFO ] 2017-08-23 12:05:09.128 [Test worker] JsonLineAggreator - Converting Customer [firstName=Grady, lastName=Cabrera] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Graham, lastName=Riggs] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Griffith, lastName=Santiago] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Guy, lastName=Thomas] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Hanna, lastName=Heath] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Harper, lastName=Torres] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Harriet, lastName=Kennedy] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Haviva, lastName=Dennis] to JSON Object
+[INFO ] 2017-08-23 12:05:09.129 [Test worker] JsonLineAggreator - Converting Customer [firstName=Heather, lastName=Byers] to JSON Object
+[INFO ] 2017-08-23 12:05:09.130 [Test worker] JsonLineAggreator - Converting Customer [firstName=Hector, lastName=Nguyen] to JSON Object
+[INFO ] 2017-08-23 12:05:09.146 [Test worker] JsonLineAggreator - Converting Customer [firstName=Hedy, lastName=Roman] to JSON Object
+[INFO ] 2017-08-23 12:05:09.146 [Test worker] JsonLineAggreator - Converting Customer [firstName=Helen, lastName=Young] to JSON Object
+[INFO ] 2017-08-23 12:05:09.147 [Test worker] JsonLineAggreator - Converting Customer [firstName=Herman, lastName=Ross] to JSON Object
+[INFO ] 2017-08-23 12:05:09.147 [Test worker] JsonLineAggreator - Converting Customer [firstName=Hermione, lastName=Prince] to JSON Object
+[INFO ] 2017-08-23 12:05:09.147 [Test worker] JsonLineAggreator - Converting Customer [firstName=Holly, lastName=Anderson] to JSON Object
+[INFO ] 2017-08-23 12:05:09.147 [Test worker] JsonLineAggreator - Converting Customer [firstName=Hunter, lastName=George] to JSON Object
+[INFO ] 2017-08-23 12:05:09.147 [Test worker] JsonLineAggreator - Converting Customer [firstName=Ian, lastName=Harvey] to JSON Object
+[INFO ] 2017-08-23 12:05:09.147 [Test worker] JsonLineAggreator - Converting Customer [firstName=Igor, lastName=Villarreal] to JSON Object
+[INFO ] 2017-08-23 12:05:09.147 [Test worker] JsonLineAggreator - Converting Customer [firstName=Ila, lastName=Rodriquez] to JSON Object
+[INFO ] 2017-08-23 12:05:09.148 [Test worker] JsonLineAggreator - Converting Customer [firstName=Imogene, lastName=Mcfadden] to JSON Object
+[INFO ] 2017-08-23 12:05:09.160 [Test worker] JsonLineAggreator - Converting Customer [firstName=Indira, lastName=White] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Irene, lastName=Newman] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Ivor, lastName=Garza] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Jack, lastName=Owens] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Jameson, lastName=Short] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Jana, lastName=Cain] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Jennifer, lastName=Reyes] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Jolie, lastName=Sims] to JSON Object
+[INFO ] 2017-08-23 12:05:09.161 [Test worker] JsonLineAggreator - Converting Customer [firstName=Jonas, lastName=Hoffman] to JSON Object
+[INFO ] 2017-08-23 12:05:09.162 [Test worker] JsonLineAggreator - Converting Customer [firstName=Kalia, lastName=Marsh] to JSON Object
+[INFO ] 2017-08-23 12:05:09.176 [Test worker] JsonLineAggreator - Converting Customer [firstName=Kevin, lastName=Melton] to JSON Object
+[INFO ] 2017-08-23 12:05:09.177 [Test worker] JsonLineAggreator - Converting Customer [firstName=Kiayada, lastName=Cortez] to JSON Object
+[INFO ] 2017-08-23 12:05:09.177 [Test worker] JsonLineAggreator - Converting Customer [firstName=Kyla, lastName=Gonzales] to JSON Object
+[INFO ] 2017-08-23 12:05:09.177 [Test worker] JsonLineAggreator - Converting Customer [firstName=Kylee, lastName=Pittman] to JSON Object
+[INFO ] 2017-08-23 12:05:09.177 [Test worker] JsonLineAggreator - Converting Customer [firstName=Lacota, lastName=Eaton] to JSON Object
+[INFO ] 2017-08-23 12:05:09.177 [Test worker] JsonLineAggreator - Converting Customer [firstName=Lesley, lastName=Hernandez] to JSON Object
+[INFO ] 2017-08-23 12:05:09.178 [Test worker] JsonLineAggreator - Converting Customer [firstName=Lewis, lastName=Perry] to JSON Object
+[INFO ] 2017-08-23 12:05:09.178 [Test worker] JsonLineAggreator - Converting Customer [firstName=Libby, lastName=Cobb] to JSON Object
+[INFO ] 2017-08-23 12:05:09.178 [Test worker] JsonLineAggreator - Converting Customer [firstName=Logan, lastName=Cortez] to JSON Object
+[INFO ] 2017-08-23 12:05:09.178 [Test worker] JsonLineAggreator - Converting Customer [firstName=Lucian, lastName=Kennedy] to JSON Object
+[INFO ] 2017-08-23 12:05:09.194 [Test worker] JsonLineAggreator - Converting Customer [firstName=Maggie, lastName=Coleman] to JSON Object
+[INFO ] 2017-08-23 12:05:09.194 [Test worker] JsonLineAggreator - Converting Customer [firstName=Mannix, lastName=Potts] to JSON Object
+[INFO ] 2017-08-23 12:05:09.194 [Test worker] JsonLineAggreator - Converting Customer [firstName=Mariko, lastName=Adams] to JSON Object
+[INFO ] 2017-08-23 12:05:09.194 [Test worker] JsonLineAggreator - Converting Customer [firstName=Maryam, lastName=Hughes] to JSON Object
+[INFO ] 2017-08-23 12:05:09.194 [Test worker] JsonLineAggreator - Converting Customer [firstName=Mohammad, lastName=Clarke] to JSON Object
+[INFO ] 2017-08-23 12:05:09.195 [Test worker] JsonLineAggreator - Converting Customer [firstName=Nissim, lastName=Roberson] to JSON Object
+[INFO ] 2017-08-23 12:05:09.195 [Test worker] JsonLineAggreator - Converting Customer [firstName=Noel, lastName=Dawson] to JSON Object
+[INFO ] 2017-08-23 12:05:09.195 [Test worker] JsonLineAggreator - Converting Customer [firstName=Odysseus, lastName=Bryan] to JSON Object
+[INFO ] 2017-08-23 12:05:09.195 [Test worker] JsonLineAggreator - Converting Customer [firstName=Palmer, lastName=Cohen] to JSON Object
+[INFO ] 2017-08-23 12:05:09.195 [Test worker] JsonLineAggreator - Converting Customer [firstName=Paul, lastName=Alston] to JSON Object
+[INFO ] 2017-08-23 12:05:09.205 [Test worker] JsonLineAggreator - Converting Customer [firstName=Preston, lastName=Rich] to JSON Object
+[INFO ] 2017-08-23 12:05:09.205 [Test worker] JsonLineAggreator - Converting Customer [firstName=Quentin, lastName=Ramsey] to JSON Object
+[INFO ] 2017-08-23 12:05:09.205 [Test worker] JsonLineAggreator - Converting Customer [firstName=Quinn, lastName=Vang] to JSON Object
+[INFO ] 2017-08-23 12:05:09.205 [Test worker] JsonLineAggreator - Converting Customer [firstName=Rae, lastName=Romero] to JSON Object
+[INFO ] 2017-08-23 12:05:09.205 [Test worker] JsonLineAggreator - Converting Customer [firstName=Raja, lastName=Rose] to JSON Object
+[INFO ] 2017-08-23 12:05:09.206 [Test worker] JsonLineAggreator - Converting Customer [firstName=Raven, lastName=Patton] to JSON Object
+[INFO ] 2017-08-23 12:05:09.206 [Test worker] JsonLineAggreator - Converting Customer [firstName=Reese, lastName=Bartlett] to JSON Object
+[INFO ] 2017-08-23 12:05:09.206 [Test worker] JsonLineAggreator - Converting Customer [firstName=Regan, lastName=Graves] to JSON Object
+[INFO ] 2017-08-23 12:05:09.206 [Test worker] JsonLineAggreator - Converting Customer [firstName=Regina, lastName=Mosley] to JSON Object
+[INFO ] 2017-08-23 12:05:09.207 [Test worker] JsonLineAggreator - Converting Customer [firstName=Rowan, lastName=Frye] to JSON Object
+[INFO ] 2017-08-23 12:05:09.223 [Test worker] JsonLineAggreator - Converting Customer [firstName=Shay, lastName=Caldwell] to JSON Object
+[INFO ] 2017-08-23 12:05:09.223 [Test worker] JsonLineAggreator - Converting Customer [firstName=Stacy, lastName=Wall] to JSON Object
+[INFO ] 2017-08-23 12:05:09.223 [Test worker] JsonLineAggreator - Converting Customer [firstName=Summer, lastName=Ayala] to JSON Object
+[INFO ] 2017-08-23 12:05:09.223 [Test worker] JsonLineAggreator - Converting Customer [firstName=Talon, lastName=Hartman] to JSON Object
+[INFO ] 2017-08-23 12:05:09.224 [Test worker] JsonLineAggreator - Converting Customer [firstName=Ulysses, lastName=Conley] to JSON Object
+[INFO ] 2017-08-23 12:05:09.224 [Test worker] JsonLineAggreator - Converting Customer [firstName=Virginia, lastName=Noel] to JSON Object
+[INFO ] 2017-08-23 12:05:09.224 [Test worker] JsonLineAggreator - Converting Customer [firstName=Wanda, lastName=Knight] to JSON Object
+[INFO ] 2017-08-23 12:05:09.224 [Test worker] JsonLineAggreator - Converting Customer [firstName=Xavier, lastName=Carlson] to JSON Object
+[INFO ] 2017-08-23 12:05:09.224 [Test worker] JsonLineAggreator - Converting Customer [firstName=Xavier, lastName=Sampson] to JSON Object
+[INFO ] 2017-08-23 12:05:09.224 [Test worker] JsonLineAggreator - Converting Customer [firstName=Xaviera, lastName=Cruz] to JSON Object
+[INFO ] 2017-08-23 12:05:09.303 [Test worker] JobCompletionNotificationListener - !!! JOB FINISHED! Time to verify the results
+[INFO ] 2017-08-23 12:05:19.605 [main] JobCompletionNotificationListener - !!! JOB STARTED!
+[INFO ] 2017-08-23 12:05:19.702 [main] JsonLineAggreator - Converting Customer [firstName=Aiko, lastName=Mason] to JSON Object
+[INFO ] 2017-08-23 12:05:19.702 [main] JsonLineAggreator - Converting Customer [firstName=Akeem, lastName=Ray] to JSON Object
+[INFO ] 2017-08-23 12:05:19.702 [main] JsonLineAggreator - Converting Customer [firstName=Alana, lastName=Ferrell] to JSON Object
+[INFO ] 2017-08-23 12:05:19.702 [main] JsonLineAggreator - Converting Customer [firstName=Alexis, lastName=Hancock] to JSON Object
+[INFO ] 2017-08-23 12:05:19.702 [main] JsonLineAggreator - Converting Customer [firstName=Aquila, lastName=England] to JSON Object
+[INFO ] 2017-08-23 12:05:19.702 [main] JsonLineAggreator - Converting Customer [firstName=Armand, lastName=Perez] to JSON Object
+[INFO ] 2017-08-23 12:05:19.702 [main] JsonLineAggreator - Converting Customer [firstName=Austin, lastName=Alvarez] to JSON Object
+[INFO ] 2017-08-23 12:05:19.703 [main] JsonLineAggreator - Converting Customer [firstName=Bradley, lastName=King] to JSON Object
+[INFO ] 2017-08-23 12:05:19.703 [main] JsonLineAggreator - Converting Customer [firstName=Brock, lastName=Terry] to JSON Object
+[INFO ] 2017-08-23 12:05:19.720 [main] JsonLineAggreator - Converting Customer [firstName=Brynne, lastName=Salinas] to JSON Object
+[INFO ] 2017-08-23 12:05:19.720 [main] JsonLineAggreator - Converting Customer [firstName=Brynne, lastName=May] to JSON Object
+[INFO ] 2017-08-23 12:05:19.720 [main] JsonLineAggreator - Converting Customer [firstName=Caleb, lastName=Cohen] to JSON Object
+[INFO ] 2017-08-23 12:05:19.720 [main] JsonLineAggreator - Converting Customer [firstName=Cedric, lastName=Estes] to JSON Object
+[INFO ] 2017-08-23 12:05:19.720 [main] JsonLineAggreator - Converting Customer [firstName=Claire, lastName=Kramer] to JSON Object
+[INFO ] 2017-08-23 12:05:19.721 [main] JsonLineAggreator - Converting Customer [firstName=Clarke, lastName=Frazier] to JSON Object
+[INFO ] 2017-08-23 12:05:19.721 [main] JsonLineAggreator - Converting Customer [firstName=Constance, lastName=Cabrera] to JSON Object
+[INFO ] 2017-08-23 12:05:19.721 [main] JsonLineAggreator - Converting Customer [firstName=Cullen, lastName=Chapman] to JSON Object
+[INFO ] 2017-08-23 12:05:19.721 [main] JsonLineAggreator - Converting Customer [firstName=Dalton, lastName=Browning] to JSON Object
+[INFO ] 2017-08-23 12:05:19.721 [main] JsonLineAggreator - Converting Customer [firstName=Deirdre, lastName=Cherry] to JSON Object
+[INFO ] 2017-08-23 12:05:19.728 [main] JsonLineAggreator - Converting Customer [firstName=Devin, lastName=Kirk] to JSON Object
+[INFO ] 2017-08-23 12:05:19.728 [main] JsonLineAggreator - Converting Customer [firstName=Elizabeth, lastName=Wolfe] to JSON Object
+[INFO ] 2017-08-23 12:05:19.728 [main] JsonLineAggreator - Converting Customer [firstName=Ella, lastName=Hester] to JSON Object
+[INFO ] 2017-08-23 12:05:19.729 [main] JsonLineAggreator - Converting Customer [firstName=Faith, lastName=Conner] to JSON Object
+[INFO ] 2017-08-23 12:05:19.729 [main] JsonLineAggreator - Converting Customer [firstName=Ferdinand, lastName=Livingston] to JSON Object
+[INFO ] 2017-08-23 12:05:19.729 [main] JsonLineAggreator - Converting Customer [firstName=Finn, lastName=Strong] to JSON Object
+[INFO ] 2017-08-23 12:05:19.729 [main] JsonLineAggreator - Converting Customer [firstName=Fitzgerald, lastName=Merritt] to JSON Object
+[INFO ] 2017-08-23 12:05:19.729 [main] JsonLineAggreator - Converting Customer [firstName=Frances, lastName=Sparks] to JSON Object
+[INFO ] 2017-08-23 12:05:19.729 [main] JsonLineAggreator - Converting Customer [firstName=Garrison, lastName=Guy] to JSON Object
+[INFO ] 2017-08-23 12:05:19.729 [main] JsonLineAggreator - Converting Customer [firstName=Garth, lastName=Stafford] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Grady, lastName=Cabrera] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Graham, lastName=Riggs] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Griffith, lastName=Santiago] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Guy, lastName=Thomas] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Hanna, lastName=Heath] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Harper, lastName=Torres] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Harriet, lastName=Kennedy] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Haviva, lastName=Dennis] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Heather, lastName=Byers] to JSON Object
+[INFO ] 2017-08-23 12:05:19.742 [main] JsonLineAggreator - Converting Customer [firstName=Hector, lastName=Nguyen] to JSON Object
+[INFO ] 2017-08-23 12:05:19.755 [main] JsonLineAggreator - Converting Customer [firstName=Hedy, lastName=Roman] to JSON Object
+[INFO ] 2017-08-23 12:05:19.755 [main] JsonLineAggreator - Converting Customer [firstName=Helen, lastName=Young] to JSON Object
+[INFO ] 2017-08-23 12:05:19.755 [main] JsonLineAggreator - Converting Customer [firstName=Herman, lastName=Ross] to JSON Object
+[INFO ] 2017-08-23 12:05:19.755 [main] JsonLineAggreator - Converting Customer [firstName=Hermione, lastName=Prince] to JSON Object
+[INFO ] 2017-08-23 12:05:19.755 [main] JsonLineAggreator - Converting Customer [firstName=Holly, lastName=Anderson] to JSON Object
+[INFO ] 2017-08-23 12:05:19.755 [main] JsonLineAggreator - Converting Customer [firstName=Hunter, lastName=George] to JSON Object
+[INFO ] 2017-08-23 12:05:19.756 [main] JsonLineAggreator - Converting Customer [firstName=Ian, lastName=Harvey] to JSON Object
+[INFO ] 2017-08-23 12:05:19.756 [main] JsonLineAggreator - Converting Customer [firstName=Igor, lastName=Villarreal] to JSON Object
+[INFO ] 2017-08-23 12:05:19.756 [main] JsonLineAggreator - Converting Customer [firstName=Ila, lastName=Rodriquez] to JSON Object
+[INFO ] 2017-08-23 12:05:19.756 [main] JsonLineAggreator - Converting Customer [firstName=Imogene, lastName=Mcfadden] to JSON Object
+[INFO ] 2017-08-23 12:05:19.762 [main] JsonLineAggreator - Converting Customer [firstName=Indira, lastName=White] to JSON Object
+[INFO ] 2017-08-23 12:05:19.762 [main] JsonLineAggreator - Converting Customer [firstName=Irene, lastName=Newman] to JSON Object
+[INFO ] 2017-08-23 12:05:19.762 [main] JsonLineAggreator - Converting Customer [firstName=Ivor, lastName=Garza] to JSON Object
+[INFO ] 2017-08-23 12:05:19.762 [main] JsonLineAggreator - Converting Customer [firstName=Jack, lastName=Owens] to JSON Object
+[INFO ] 2017-08-23 12:05:19.762 [main] JsonLineAggreator - Converting Customer [firstName=Jameson, lastName=Short] to JSON Object
+[INFO ] 2017-08-23 12:05:19.763 [main] JsonLineAggreator - Converting Customer [firstName=Jana, lastName=Cain] to JSON Object
+[INFO ] 2017-08-23 12:05:19.763 [main] JsonLineAggreator - Converting Customer [firstName=Jennifer, lastName=Reyes] to JSON Object
+[INFO ] 2017-08-23 12:05:19.763 [main] JsonLineAggreator - Converting Customer [firstName=Jolie, lastName=Sims] to JSON Object
+[INFO ] 2017-08-23 12:05:19.763 [main] JsonLineAggreator - Converting Customer [firstName=Jonas, lastName=Hoffman] to JSON Object
+[INFO ] 2017-08-23 12:05:19.763 [main] JsonLineAggreator - Converting Customer [firstName=Kalia, lastName=Marsh] to JSON Object
+[INFO ] 2017-08-23 12:05:19.776 [main] JsonLineAggreator - Converting Customer [firstName=Kevin, lastName=Melton] to JSON Object
+[INFO ] 2017-08-23 12:05:19.776 [main] JsonLineAggreator - Converting Customer [firstName=Kiayada, lastName=Cortez] to JSON Object
+[INFO ] 2017-08-23 12:05:19.776 [main] JsonLineAggreator - Converting Customer [firstName=Kyla, lastName=Gonzales] to JSON Object
+[INFO ] 2017-08-23 12:05:19.776 [main] JsonLineAggreator - Converting Customer [firstName=Kylee, lastName=Pittman] to JSON Object
+[INFO ] 2017-08-23 12:05:19.776 [main] JsonLineAggreator - Converting Customer [firstName=Lacota, lastName=Eaton] to JSON Object
+[INFO ] 2017-08-23 12:05:19.776 [main] JsonLineAggreator - Converting Customer [firstName=Lesley, lastName=Hernandez] to JSON Object
+[INFO ] 2017-08-23 12:05:19.777 [main] JsonLineAggreator - Converting Customer [firstName=Lewis, lastName=Perry] to JSON Object
+[INFO ] 2017-08-23 12:05:19.777 [main] JsonLineAggreator - Converting Customer [firstName=Libby, lastName=Cobb] to JSON Object
+[INFO ] 2017-08-23 12:05:19.777 [main] JsonLineAggreator - Converting Customer [firstName=Logan, lastName=Cortez] to JSON Object
+[INFO ] 2017-08-23 12:05:19.777 [main] JsonLineAggreator - Converting Customer [firstName=Lucian, lastName=Kennedy] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Maggie, lastName=Coleman] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Mannix, lastName=Potts] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Mariko, lastName=Adams] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Maryam, lastName=Hughes] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Mohammad, lastName=Clarke] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Nissim, lastName=Roberson] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Noel, lastName=Dawson] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Odysseus, lastName=Bryan] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Palmer, lastName=Cohen] to JSON Object
+[INFO ] 2017-08-23 12:05:19.793 [main] JsonLineAggreator - Converting Customer [firstName=Paul, lastName=Alston] to JSON Object
+[INFO ] 2017-08-23 12:05:19.800 [main] JsonLineAggreator - Converting Customer [firstName=Preston, lastName=Rich] to JSON Object
+[INFO ] 2017-08-23 12:05:19.800 [main] JsonLineAggreator - Converting Customer [firstName=Quentin, lastName=Ramsey] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Quinn, lastName=Vang] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Rae, lastName=Romero] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Raja, lastName=Rose] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Raven, lastName=Patton] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Reese, lastName=Bartlett] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Regan, lastName=Graves] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Regina, lastName=Mosley] to JSON Object
+[INFO ] 2017-08-23 12:05:19.801 [main] JsonLineAggreator - Converting Customer [firstName=Rowan, lastName=Frye] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Shay, lastName=Caldwell] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Stacy, lastName=Wall] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Summer, lastName=Ayala] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Talon, lastName=Hartman] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Ulysses, lastName=Conley] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Virginia, lastName=Noel] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Wanda, lastName=Knight] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Xavier, lastName=Carlson] to JSON Object
+[INFO ] 2017-08-23 12:05:19.814 [main] JsonLineAggreator - Converting Customer [firstName=Xavier, lastName=Sampson] to JSON Object
+[INFO ] 2017-08-23 12:05:19.815 [main] JsonLineAggreator - Converting Customer [firstName=Xaviera, lastName=Cruz] to JSON Object
+[INFO ] 2017-08-23 12:05:19.860 [main] JobCompletionNotificationListener - !!! JOB FINISHED! Time to verify the results
