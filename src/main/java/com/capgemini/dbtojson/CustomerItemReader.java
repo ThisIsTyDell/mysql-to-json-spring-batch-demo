@@ -5,7 +5,6 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
-//import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.StepExecution;
 import org.springframework.batch.core.annotation.BeforeStep;
 import org.springframework.batch.item.ItemReader;
