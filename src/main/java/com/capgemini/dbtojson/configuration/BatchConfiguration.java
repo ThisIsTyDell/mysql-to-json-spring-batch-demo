@@ -1,7 +1,5 @@
 package com.capgemini.dbtojson.configuration;
 
-// import javax.sql.DataSource;
-
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
@@ -10,13 +8,11 @@ import org.springframework.batch.core.configuration.annotation.StepBuilderFactor
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.ItemWriter;
-// import org.springframework.batch.item.database.JdbcCursorItemReader;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
-// import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
 import com.capgemini.dbtojson.jsonwriter.JsonFlatFileFooterCallback;
 import com.capgemini.dbtojson.jsonwriter.JsonFlatFileHeaderCallback;
