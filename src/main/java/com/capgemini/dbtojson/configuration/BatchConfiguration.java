@@ -30,11 +30,20 @@ public class BatchConfiguration {
     @Autowired
     public StepBuilderFactory stepBuilderFactory;
     
+    /**
+     * Reads customer data from a database, stores into a List, and sorts alphabetically.
+     * @return Sorted Customer List
+     */
     @Bean
     ItemReader<Customer> customerItemReader() {
 		return new CustomerItemReader();
     }
     
+    /**
+     * Writes items from a collection into a new file as JSON object.
+     * 
+     * @return the json file at specified exportFilePath
+     */
     @Bean
     ItemWriter<Customer> jsonWriter() {
     	FlatFileItemWriter<Customer> jsonFileWriter = new FlatFileItemWriter<>();
@@ -54,11 +63,6 @@ public class BatchConfiguration {
     	return jsonFileWriter;
     }
 	
-    /**
-     * 
-     * @param listener
-     * @return
-     */
 	@Bean
     public Job importUserJob(JobCompletionNotificationListener listener) {
         return jobBuilderFactory.get("importUserJob")
@@ -69,10 +73,6 @@ public class BatchConfiguration {
                 .build();
     }
     
-	/**
-	 * 
-	 * @return
-	 */
     @Bean
     public Step exportToJSON() {
     	return stepBuilderFactory.get("exportToJSON")
