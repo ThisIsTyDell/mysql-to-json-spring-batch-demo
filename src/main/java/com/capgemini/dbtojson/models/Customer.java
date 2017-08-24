@@ -7,18 +7,6 @@ public class Customer {
 	private String address;
 	private String city;
 	private String zipCode;
-	
-	public Customer() {	}
-	
-	public Customer(String firstName, String lastName, String phoneNumber, String address, String city,
-			String zipCode) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.phoneNumber = phoneNumber;
-		this.address = address;
-		this.city = city;
-		this.zipCode = zipCode;
-	}
 
 	public String getFirstName() {
 		return firstName;
@@ -73,5 +61,4 @@ public class Customer {
 		return "Customer [firstName=" + firstName + ", lastName=" + lastName + "]";
 	}
 
-	
 }
