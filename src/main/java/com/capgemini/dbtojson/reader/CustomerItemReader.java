@@ -37,6 +37,11 @@ public class CustomerItemReader implements ItemReader<Customer> {
 		return nextCustomer;
 	}
 	
+	/**
+	 * Queries the database to get Customer data, store into a list, and sort before beginning step.
+	 * 
+	 * @param stepExecution
+	 */
 	@BeforeStep
 	public void getCustomerList(StepExecution stepExecution) {
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
