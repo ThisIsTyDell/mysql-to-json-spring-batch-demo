@@ -77,7 +77,6 @@ public class BatchConfiguration {
     public Step exportToJSON() {
     	return stepBuilderFactory.get("exportToJSON")
     			.<Customer,Customer> chunk(10)
-    			// .reader(databaseItemReader(dataSource))
     			.reader(customerItemReader())
     			.writer(jsonWriter())
     			.build();
