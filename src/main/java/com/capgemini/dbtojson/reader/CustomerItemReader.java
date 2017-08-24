@@ -40,10 +40,9 @@ public class CustomerItemReader implements ItemReader<Customer> {
 	/**
 	 * Queries the database to get Customer data, store into a list, and sort before beginning step.
 	 * 
-	 * @param stepExecution
 	 */
 	@BeforeStep
-	public void getCustomerList(StepExecution stepExecution) {
+	public void getCustomerList() {
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
     	this.customerList = jdbcTemplate.query("SELECT * FROM customers",
     			new BeanPropertyRowMapper<Customer>(Customer.class));	
